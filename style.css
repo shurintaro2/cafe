@@ -1,0 +1,50 @@
+body {
+    background-color: ivory;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: forestgreen;
+    color: white;
+    border: 6px solid darkgreen;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 48px;
+    background-color: #228b22;
+    color: ivory;
+    margin: 0;
+    padding: 16px;
+}
+
+.box {
+    background-color: #deb887;
+    padding: 12px;
+}
+
+nav {
+    background-color: darkgreen;
+    padding: 0 16px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+nav a {
+    color: ivory;
+}
+
+nav a:hover {
+    color: gray;
+    font-size: 24px;
+    background-color: aqua;
+}
+
